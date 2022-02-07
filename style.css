@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Mon, Arial, Helvetica, sans-serif;
+}
+@font-face{
+    font-family: Mon;
+    src: url('FONTS/Montserrat-Regular.ttf');
+}
+
+#checkout-title{
+  
+    text-align: center;
+    margin: 1.4rem 0;
+    
+    
+}
+#checkout-title h1{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+main{
+    margin: 2.5rem auto;
+    display: flex;
+    width: 56.25rem;
+}
+
+form{
+    height: 38.625rem;
+    width: 23.25rem;
+    margin-right: 6.25rem;
+    position: relative;
+}
+.campo{
+    position: relative;
+    margin: 0.625rem 0;
+}
+img{
+    height: 111px;
+    width: 96px;
+}
+
+.shipping-address_data-form{
+    margin-top: 2rem;
+}
+.input-field{
+    margin-top: 0.4rem;
+    /* height: 54.79px; */
+}
+
+.campo i{
+ position: absolute;
+ top: 2.3rem;
+ left: 0.5rem;
+}
+.campo label{
+    font-size: 12px;
+    
+}
+h1{
+    font-size: 18px;
+}
+.campo input{
+    padding: 0.5rem 0.3125rem 0.5rem 2.2rem;
+    border: 1px solid #828282;
+    border-radius: 5px;
+    width: 372px;
+}
+
+#country-field{
+
+   margin: 0px 7px 0px 0;
+   display: inline-block;
+   width: 118px;
+   height: 70px;
+}
+
+#postal-code-field{
+    display: inline-block;
+    margin: 0px 0;
+    display: inline-block;
+    width: 216px;
+    height: 70px;
+}
+
+#post-code{
+    width: 13.5rem;
+}
+
+#country{
+    width: 7.438rem;
+    padding: 0.4rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+#user-reminder{
+    display: inline-block;
+    margin: 10px 0;
+    width: 13px;
+}
+
+#btn-submit{
+  
+  border-radius: 0.625rem;
+  font-weight: 600;
+  padding: 0.875rem 0;
+  width: 4.625rem;
+  height: 2.75rem;
+  background-color: #F2994A;
+  color: white;
+  border: white;
+  position: absolute;
+  top:32.375rem ;
+  bottom: -2.5rem;
+  right: -7.5rem;
+  left: 26.125rem;
+}
+
+.product-panel{
+    font-size: 0.75rem;
+    font-weight: 700;
+    font-family: Mon;
+    display: flex;
+    flex-direction: column;
+    padding: 0.625rem 1.25rem ;
+    height: 23rem;
+    background-color: #EEE;
+    border-radius: 0.625rem;
+}
+
+img{
+    display: inline-block;
+    border-radius: 5px;
+}
+.products-preview{
+    height: auto;
+}
+.product{
+    display: flex;
+    margin: 0.5rem;
+    
+}
+h2{
+    font-size: 16px;
+}
+.product-info{
+    width: 10.875rem;
+    height: 7rem;
+    margin-left: 1rem;
+    
+}
+
+.product-info>p{
+    margin-bottom: 1rem;
+}
+
+.quantity-controller{
+    width: 6.375rem;
+    height: 2.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+    align-items: center;
+   border-radius: 5px;
+}
+
+.quantity-controller button{
+    width: 1.375rem;
+    height: 1.425rem;
+    border-radius: 5px;
+    border: white;
+}
+
+ strong{
+     color: #f2994a;
+     margin-right: 0.5rem;
+     font-size: 16px;
+
+ }
+
+
+ .buy-detail {
+    border-top: 1px solid #BDBDBD;
+    width: 288px;
+    height: 20px;
+    margin: 25px 0 5px;
+    display: flex;
+}
+.buy-detail p {
+    font-size: 14px;
+    flex: 1;
+    height: 100%;
+    margin: 0;
+}
+.buy-detail p:nth-child(2) {
+    text-align: right;
+}
+.fas{
+     opacity: 0.7;
+}
